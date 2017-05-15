@@ -1,0 +1,29 @@
+{
+  "name": "twilio-canned-text-api",
+  "version": "1.0.0",
+  "description": "Send SMS notifications based on routes accessed",
+  "main": "app.js",
+  "repository": {
+    "type": "glitch",
+    "url": "https://glitch.com/edit/#!/twilio-canned-text-api"
+  },
+  "keywords": [
+    "twilio",
+    "express",
+    "glitch",
+    "sms"
+  ],
+  "author": "Jenn Schiffer",
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.1.0 <5.5.0"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.15.2",
+    "twilio": "^3.0.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
